@@ -1,0 +1,74 @@
+/* body{
+    overflow-x: hidden;
+} */
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.main-nav{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-nav h1{
+    color: green;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+
+.nav-list{
+   padding: 0 .1rem;
+   
+}
+.nav-list li a{
+   padding: 0 .5rem;
+   margin: 1rem .3rem;
+   /* background-color: #ccc; */
+   
+}
+.grid{
+    display: grid;
+    grid-template-areas:
+    "main-header " 
+    " showcase-1"
+    " home-info "
+    "home-info-img"
+    " users"
+    "contact"
+     "main-footer";
+
+}
+
+/* this is my showcase-1 styling */
+
+.showcase-1 .wrap-box1{
+    display: block;
+    width: 100%;
+    padding-top: 5%;
+}
+/* this is my aside styling  */
+.main-aside{
+    display: none;
+}.card:nth-child(odd){
+    display: none;
+}
+
+/* my home image */
+
+
+/* this is my user */
+.user-ofice{
+    flex-direction: column;
+   
+    margin-top: 710px;
+
+}
+.fas{
+    margin-top: 10px;
+}
+
+
